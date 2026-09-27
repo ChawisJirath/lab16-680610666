@@ -71,7 +71,7 @@ function OptionSelect({
           <SelectItem
             key={o.value}
             value={o.value}
-            className="[&>span]:min-w-0 [&>span]:shrink [&>span]:whitespace-normal [&>span]:break-words"
+            className="[&>div]:min-w-0 [&>div]:shrink [&>div]:whitespace-normal [&>div]:break-words"
           >
             {o.label}
           </SelectItem>
