@@ -61,17 +61,17 @@ export const students: Student[] = [
 
 export const courses: Course[] = [
   {
-    courseId: "261207",
+    courseCode: "261207",
     courseTitle: "Basic Computer Engineering Lab",
     instructors: ["Dome", "Chanadda"],
   },
   {
-    courseId: "261497",
+    courseCode: "261497",
     courseTitle: "Full Stack Development",
     instructors: ["Dome", "Nirand", "Chanadda"],
   },
   {
-    courseId: "269101",
+    courseCode: "269101",
     courseTitle: "Introduction to Information Systems and Network Engineering",
     instructors: ["KENNETH COSH"],
   },
