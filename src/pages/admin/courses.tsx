@@ -100,13 +100,13 @@ export default function AdminCoursesPage() {
   };
 
   const handleAddCourse = () => {
-    const trimmedCode = courseCode.trim();
+    const normalizedCode = courseCode.trim().toUpperCase();
     const trimmedTitle = courseTitle.trim();
 
-    if (!trimmedCode || !trimmedTitle || duplicateCourse) return;
+    if (!normalizedCode || !trimmedTitle || duplicateCourse) return;
 
     const newCourse: Course = {
-      courseCode: trimmedCode,
+      courseCode: normalizedCode,
       courseTitle: trimmedTitle,
       instructors: selectedInstructors,
     };
