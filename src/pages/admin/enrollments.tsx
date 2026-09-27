@@ -63,8 +63,8 @@ function OptionSelect({
       value={value}
       onValueChange={(v) => onChange(v as string)}
     >
-      <SelectTrigger id={id} className="w-full">
-        <SelectValue placeholder={placeholder} />
+      <SelectTrigger id={id} className="w-full min-w-0 overflow-hidden">
+        <SelectValue className="min-w-0 truncate" placeholder={placeholder} />
       </SelectTrigger>
       <SelectContent>
         {options.map((o) => (
