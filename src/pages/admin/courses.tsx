@@ -152,7 +152,7 @@ export default function AdminCoursesPage() {
                   id="courseCode"
                   value={courseCode}
                   onChange={(event) => setCourseCode(event.target.value)}
-                  placeholder="เช่น CS101"
+                  placeholder="เช่น CPE303"
                   aria-invalid={Boolean(duplicateCourse)}
                   aria-describedby={
                     duplicateCourse ? "course-code-error" : undefined
@@ -177,7 +177,7 @@ export default function AdminCoursesPage() {
                   id="courseTitle"
                   value={courseTitle}
                   onChange={(event) => setCourseTitle(event.target.value)}
-                  placeholder="เช่น Introduction to Programming"
+                  placeholder="เช่น Mobile Application Development"
                 />
               </div>
 
